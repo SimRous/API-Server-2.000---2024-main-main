@@ -1,5 +1,5 @@
 class Users_API {
-    static Host_URL() { return "http://localhost:5000"; }
+    static Host_URL() { return "https://private-bejewled-pasta.glitch.me"; }
     static API_URL() { return this.Host_URL() + "/accounts" };
     static TOKEN_URL() {return this.Host_URL() + "/token"}
     static initHttpState() {
